@@ -1,0 +1,50 @@
+#projects_container_fluid{
+  /*height:100vh;*/
+  width:100%;
+  background:linear-gradient(0deg, rgba(1, 1, 1, 0.5),rgba(0, 0, 0, 0.5)),url('../../assets/img/bg2.jpg');
+  background-size:contain;
+  background-repeat:repeat;
+  /*background-attachment:fixed;*/
+  /*color:white;*/
+  
+}
+.text-shadow-effect{
+  text-shadow: 2px 4px #888888;
+
+}
+.php,.dotnet,.other_project{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	transition: 2s;/* Time duration for transition*/
+}
+
+.card{
+	transition: 2s;/* Time duration for transition*/
+}
+
+.card:hover{
+	box-shadow: 2px 10px 8px 10px #888888;
+	transform: scale(1.1);/*Zoom level of card on hover*/
+	z-index: 999;
+	
+}
+.project_btn{
+	margin-right: 3px;
+	margin-left: 3px;
+}
+
+#php_projects_section{
+background-color: rgba(124,125,124,0.7);
+padding: 10px;
+}
+
+#dot_net_project_section{
+background-color: rgba(124,125,124,0.7);
+padding: 10px;
+
+}
+#github_projects_row{
+	background-color: rgba(124,125,124,0.7);
+padding: 10px;
+
+}
